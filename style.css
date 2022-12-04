@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../Seravina/Seravina.jpg);
+    background-size: 100% 100%;
+}
+
+.Seravina-Container {
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    margin-left: 150px;
+    background-color: rgba(230, 230, 230, 0.316);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Seravina-Container form table tr td {
+    padding: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.Seravina-Container form table {
+    width: 650px;
+    position: relative;
+}
+
+.InputNama {
+    margin-left: 90px;
+}
+
+.InputNama:hover {
+    background-color: rgba(230, 230, 230, 0.316);
+}
+.InputNama:active {
+    background-color: white;
+}
+.InputTujuan:hover {
+    background-color: rgba(230, 230, 230, 0.316);
+}
+.InputTujuan:active {
+    background-color: white;
+}
+.InputKelas:hover {
+    background-color: rgba(230, 230, 230, 0.316);
+}
+.InputKelas:active {
+    background-color: white;
+}
+.InputJumlahTiket:hover {
+    background-color: rgba(230, 230, 230, 0.316);
+}
+.InputJumlahTiket:active {
+    background-color: white;
+}
+
+h6 {
+    text-align: center;
+    padding-top: 1.5%;
+    font-weight: bold;
+}
+
+.InputTujuan {
+    margin-left: 75px;
+    width: 170px;
+}
+
+.InputKelas {
+    margin-left: 86px;
+    width: 170px;
+}
+
+.InputJumlahTiket {
+    margin-left: 18px;
+    width: 168px;
+}
+
+.InputMember {
+    margin-left: 68px;
+}
+
+.button, .reset {
+    padding: 1.2%;
+    background-color: rgba(156, 156, 156, 0.533);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: rgb(0, 0, 0);
+}
+
+.button:active {
+    background-color: rgba(255, 255, 255, 0.139);
+}
+
+.reset:active {
+    background-color: rgba(255, 255, 255, 0.139);
+}
