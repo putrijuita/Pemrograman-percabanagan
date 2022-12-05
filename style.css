@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(../Seravina/Seravina.jpg);
+    background-image: url(Seravina.jpg);
     background-size: 100% 100%;
 }
 
